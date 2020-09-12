@@ -9,8 +9,8 @@ export default function Home() {
     <div>
       <h1>Counter</h1>
       <h1>Counter Value: {state}</h1>
-      <button onClick={() => dispatch(increase())}>Inc</button>
-      <button onClick={() => dispatch(decrease())}>Dec</button>
+      <button onClick={() => dispatch(increase())}>increase</button>
+      <button onClick={() => dispatch(decrease())}>decrease</button>
     </div>
   );
 }
